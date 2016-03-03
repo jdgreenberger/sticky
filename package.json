@@ -1,0 +1,29 @@
+{
+  "name": "tdp-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "coffee server.coffee",
+    "test": "NODE_ENV=test cucumber-js --compiler coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Originate/TDP-Api.git"
+  },
+  "devDependencies": {
+    "cucumber": "^0.8.0",
+    "glob-promise": "^1.0.4",
+    "js2coffee": "^2.1.0",
+    "mycha": "^0.9.2",
+    "request": "^2.65.0",
+    "sequelize-cli": "^2.0.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "express": "^4.13.3",
+    "exprestive": "^0.10.1",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.12.2"
+  }
+}
